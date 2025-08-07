@@ -23,7 +23,7 @@ const Homepage = () => {
             <img
               src="/HotelFront3.PNG" // <-- Replace with actual image
               alt="Luxury Room"
-              className="w-[35vw]  h-[80vh] object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg md:w-[35vw] md:h-[80vh]"
             />
             <div className="flex justify-between text-white text-sm mt-4 w-[35vw] tracking-widest">
               <span>01</span>
@@ -75,7 +75,7 @@ const Homepage = () => {
               <img
                 src="/Room1.JPG" // <-- Replace with actual image
                 alt="Room Interior"
-                className="w-[40vw] h-[55vh] object-cover rounded-lg"
+                className="w-full h-auto object-cover rounded-lg md:w-[40vw] md:h-[55vh]"
               />
             </motion.div>
 
